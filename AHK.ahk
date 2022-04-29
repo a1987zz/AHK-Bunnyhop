@@ -1410,6 +1410,7 @@ class _ClassMemory
 }
 
 _classmemory.setSeDebugPrivilege()
+setbatchlines -1
 
 lou := new _ClassMemory("ahk_exe csgo.exe", "", hProcess)
 if !IsObject(lou)
